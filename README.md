@@ -5,7 +5,7 @@
 ***You need a github account for this.***
 
 ```
-1. First go to https://gitpod.io and sign in with github
+1. First go to https://gitpod.io and sign in with github (or sign into github and use codespaces instead)
 
 
 2. Then make a workspace with a new repo (perferably an existing one in your github account.)
