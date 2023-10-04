@@ -24,6 +24,16 @@ docker pull ubuntu latest
 docker run --rm -d -p 3443:80 -v $PWD:/workspace:rw -e USER=username -e PASSWORD=password -e RESOLUTION=1366x650 --name ubuntu-novnc4 ubuntu:latest
 ```
 
+# OR
+
+```
+docker pull fredblgr/ubuntu-novnc
+```
+```
+docker run --rm -d -p 6080:80 -v $PWD:/workspace:rw -e USER=username -e PASSWORD=password -e RESOLUTION=1680x1050 --name ubuntu-novnc fredblgr/ubuntu-novnc:20.04
+```
+## Although this is unmaintained it still works i guess
+
 Then click on "Open Window" as seen in this image
 <br>
 ![Image](https://cdn.discordapp.com/attachments/741533658674102352/970189978070052946/unknown.png)
