@@ -16,7 +16,7 @@ Now follow the instructions below.
 
 
 
-# Copy and paste this line in the terminal:
+# Copy and paste this line in the terminal (you can use any linux image i think, ie: archlinux):
 ```
 docker pull ubuntu latest
 ```
